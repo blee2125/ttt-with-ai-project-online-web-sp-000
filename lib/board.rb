@@ -1,7 +1,7 @@
 class Board
 
   def initialize
-    
+
   end
 
   def display(board)
