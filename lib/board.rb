@@ -33,7 +33,7 @@ class Board
 
   end
 
-  def update
+  def update(input, player)
 
   end
 
