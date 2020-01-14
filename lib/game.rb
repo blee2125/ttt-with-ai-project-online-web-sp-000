@@ -11,6 +11,10 @@ class Game
     [6, 4, 2]
   ].freeze
 
+  def initialize()
+
+  end
+
   def won?(board)
     WIN_COMBINATIONS.detect do |combo|
       board[combo[0]] == board[combo[1]] &&
