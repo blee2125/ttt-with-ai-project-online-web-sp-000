@@ -25,4 +25,8 @@ class Board
     cells[index] == 'X' || cells[index] == 'O'
   end
 
+  def reset!
+    
+  end
+
 end
