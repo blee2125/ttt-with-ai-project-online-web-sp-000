@@ -27,5 +27,7 @@ class Game
     won?(board) || draw?(board)
   end
 
-  
+  def winner
+
+  end
 end
