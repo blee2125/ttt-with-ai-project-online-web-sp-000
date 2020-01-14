@@ -13,6 +13,10 @@ class Board
     puts " #{cells[6]} | #{cells[7]} | #{cells[8]} "
   end
 
+  def reset!
+    @cells= Array.new(9, " ")
+  end
+
   def full?
     cells.all? { |token| token == 'X' || token == 'O' }
   end
@@ -25,12 +29,11 @@ class Board
     cells[index] == 'X' || cells[index] == 'O'
   end
 
-  def reset!
-    @cells= Array.new(9, " ")
-  end
-
   def valid_move?(cells, index)
     index.between?(0, 8) && !position_taken?(cells, index)
   end
 
+  def positon
+
+  end
 end
