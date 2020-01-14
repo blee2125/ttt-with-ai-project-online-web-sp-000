@@ -26,7 +26,7 @@ class Board
   end
 
   def reset!
-    
+
   end
 
 end
