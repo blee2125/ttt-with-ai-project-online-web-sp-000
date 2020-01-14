@@ -26,11 +26,11 @@ class Board
   end
 
   def taken?(input)
-    cells[index] == 'X' || cells[index] == 'O'
+
   end
 
   def valid_move?(input)
-    index.between?(0, 8) && !position_taken?(cells, index)
+    
   end
 
   def position(input)
