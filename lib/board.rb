@@ -21,4 +21,8 @@ class Board
     cells.count { |token| token == 'X' || token == 'O' }
   end
 
+  def taken?(cells, index)
+    cells[index] == 'X' || cells[index] == 'O'
+  end
+
 end
