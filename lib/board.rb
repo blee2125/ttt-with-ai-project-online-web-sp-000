@@ -25,11 +25,11 @@ class Board
     cells.count { |token| token == 'X' || token == 'O' }
   end
 
-  def taken?(cells, index)
+  def taken?(input)
     cells[index] == 'X' || cells[index] == 'O'
   end
 
-  def valid_move?(cells, index)
+  def valid_move?(input)
     index.between?(0, 8) && !position_taken?(cells, index)
   end
 
