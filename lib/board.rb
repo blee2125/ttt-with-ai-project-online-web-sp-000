@@ -30,7 +30,11 @@ class Board
   end
 
   def valid_move?(input)
-    
+
+  end
+
+  def update
+
   end
 
   def position(input)
