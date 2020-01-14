@@ -29,4 +29,7 @@ class Board
 
   end
 
+  def valid_move?(cells, index)
+    index.between?(0, 8) && !position_taken?(cells, index)
+  end
 end
