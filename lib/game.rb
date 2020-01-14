@@ -11,7 +11,7 @@ class Game
     [6, 4, 2]
   ].freeze
 
-  def initialize()
+  def initialize(player_1, player_2, board)
 
   end
 
