@@ -33,7 +33,7 @@ class Board
     index.between?(0, 8) && !position_taken?(cells, index)
   end
 
-  def position
-
+  def position(input)
+    input.to_i-1
   end
 end
