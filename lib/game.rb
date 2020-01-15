@@ -9,7 +9,7 @@ class Game
     [2, 5, 8],
     [0, 4, 8],
     [6, 4, 2]
-  ].freeze
+  ]
 
 #  def initialize(player_1= ("X"), player_2= ("O"), board)
 #    @player_1= player_1
