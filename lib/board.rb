@@ -1,5 +1,5 @@
 class Board
-  attr_accessor :cells, :turn_count
+  attr_accessor :cells
 
   def initialize
     reset!
