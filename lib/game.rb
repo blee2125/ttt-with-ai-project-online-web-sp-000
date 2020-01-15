@@ -44,7 +44,11 @@ class Game
   end
 
   def turn
+    if #move valid
 
+    else
+
+    end
   end
 
   def play
